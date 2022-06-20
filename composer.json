@@ -1,0 +1,16 @@
+{
+    "name": "genesisoft/googletagmanager",
+    "description": "Extensão do Google API para adicionar script do Google Tag Manager",
+    "type": "magento2-module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Genesisoft\\GoogleTagManager\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
